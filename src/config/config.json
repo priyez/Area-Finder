@@ -1,0 +1,32 @@
+{
+  "site": {
+    "title": "Area Finder",
+    "base_url": "",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/Logo.svg",
+    "logo": "/images/Logo.svg",
+    "logo_darkmode": "/images/Logo.svg",
+    "logo_width": "150",
+    "logo_height": "27",
+    "logo_text": "Area Finder"
+  },
+
+  "settings": {
+    "search": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "system"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "A Boiler Plate"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Next Boilerplate"
+  }
+}

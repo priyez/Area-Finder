@@ -1,0 +1,33 @@
+.btn {
+  @apply capitalize transition;
+  line-height: 1.5rem;
+    display: inline-block;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-color: transparent;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+    width: 6.5rem;
+}
+.stroke-custom {
+  path {
+    stroke-width: 1.2px !important;
+  }
+}
+
+.btn-sm {
+  @apply rounded-sm px-4 py-1.5 text-sm;
+}
+
+.btn-primary {
+  @apply border-[#3265fc] bg-[#3265fc] text-white dark:border-darkmode-primary dark:bg-white dark:text-[#3265fc];
+}
+
+.btn-outline-primary {
+  @apply border-[#3265fc] bg-transparent text-[#3265fc] hover:bg-[#3265fc] hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-dark;
+}
