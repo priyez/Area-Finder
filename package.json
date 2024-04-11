@@ -15,7 +15,7 @@
     "remove-darkmode": "node scripts/removeDarkmode.js && npm run format"
   },
   "engines": {
-    "node": "18.x",
+    "node": "20.x",
     "npm": "9.x"
   },
   "dependencies": {
