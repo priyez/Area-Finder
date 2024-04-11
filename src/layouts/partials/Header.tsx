@@ -83,7 +83,7 @@ const Header: React.FC<HeaderProps> = ({
         <nav className="navbar block xl:flex w-full container text-[12px]">
           <div className="order-0">
             <h4 className="text-[1.5rem]">{searchTerm === "" ? "Reviews" : searchTerm} </h4>
-            <p>"{filteredReviewsCount}" Reviews (People are raving about the selected location)</p>
+            <p>&quot;{filteredReviewsCount}&quot; Reviews (People are raving about the selected location)</p>
           </div>
           <ul className="flex w-full xl:w-[25%] justify-between">
             <li className="w-[60%] flex justify-center">

@@ -103,7 +103,7 @@ const ReviewsList: React.FC = () => {
 
               <div>
                 {filteredReviews.map((review, index) => (
-                  <div className="border-solid border-gray-300 border-b-2">
+                  <div key={index} className="border-solid border-gray-300 border-b-2">
                     <div onClick={() => toggleComment(review.id)} >
                       <ul className="mb-2 flex justify-between">
                         <li className="mr-4 inline-flex">
