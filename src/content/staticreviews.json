@@ -1,0 +1,244 @@
+[
+    {
+        "id": "3c34cDw5zqUPKVdj774X",
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "rating": 3,
+        "comments": [
+            {
+                "user": "JnZ63XGkBOfuHogS8W9dAnNe0Vk1",
+                "commentId": "80fe1724-2bf1-4115-87b0-f363255fe2a4",
+                "userName": " Priye",
+                "createdAt": {
+                    "seconds": 1713448039,
+                    "nanoseconds": 740000000
+                },
+                "displayPic": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/JnZ63XGkBOfuHogS8W9dAnNe0Vk1%2FprofilesPics?alt=media&token=000b46ce-2bd4-49b1-89f6-69922921e49c",
+                "comment": "love the review"
+            }
+        ],
+        "options": [
+            "hospital",
+            "resortPark",
+            "parkingLot",
+            "gym"
+        ],
+        "downVotesUsers": [
+            "IPHBkcyyMJVUHzfewYQTEzDQwC62"
+        ],
+        "location": "Ikate, Lekki",
+        "upvotes": [
+            "JnZ63XGkBOfuHogS8W9dAnNe0Vk1"
+        ],
+        "upVotesUsers": [
+            "JnZ63XGkBOfuHogS8W9dAnNe0Vk1"
+        ]
+    },
+    {
+        "id": "Dlc9iNc14VqxhSXpdXz5",
+        "location": "First Mechanic, Alakahia",
+        "user": {
+            "email": "sopiriyejamabo@gmail.com",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/IPHBkcyyMJVUHzfewYQTEzDQwC62%2FprofilesPics?alt=media&token=455a22b8-84b1-41b6-997d-7dd26e7aa011",
+            "displayName": " jamabo"
+        },
+        "rating": 3,
+        "review": "the area is nice and peaceful, strong security, conduscive atmosphere and freindly neigbours",
+        "timestamp": {
+            "seconds": 1713478934,
+            "nanoseconds": 608000000
+        },
+        "upVotesUsers": [],
+        "options": [
+            "parkingLot",
+            "gym"
+        ],
+        "downVotesUsers": [
+            "IPHBkcyyMJVUHzfewYQTEzDQwC62"
+        ]
+    },
+    {
+        "id": "EtjSU1KHrCYu2sM65KjG",
+        "user": {
+            "email": "jayspriye@gmail.com",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/JnZ63XGkBOfuHogS8W9dAnNe0Vk1%2FprofilesPics?alt=media&token=000b46ce-2bd4-49b1-89f6-69922921e49c",
+            "displayName": "sopiriye jamabo"
+        },
+        "location": "Egbeda",
+        "options": [
+            "nightLife",
+            "hospital",
+            "publicTp",
+            "temple"
+        ],
+        "timestamp": {
+            "seconds": 1713607200,
+            "nanoseconds": 598000000
+        },
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "rating": 4
+    },
+    {
+        "id": "GZu2Wb5fLjxBte5CLi3T",
+        "downvotes": [
+            "JnZ63XGkBOfuHogS8W9dAnNe0Vk1"
+        ],
+        "options": [
+            "childCare",
+            "light"
+        ],
+        "location": "Ikate, Lekki",
+        "downVotesUsers": [],
+        "rating": 4,
+        "upvotes": [
+            "JnZ63XGkBOfuHogS8W9dAnNe0Vk1"
+        ],
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket."
+    },
+    {
+        "id": "JliOFrvQxQB4o8aHSIEQ",
+        "options": [
+            "nightLife",
+            "parkingLot",
+            "security"
+        ],
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "user": {
+            "email": "jayspriye@gmail.com",
+            "displayName": " Priye",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/JnZ63XGkBOfuHogS8W9dAnNe0Vk1%2FprofilesPics?alt=media&token=000b46ce-2bd4-49b1-89f6-69922921e49c"
+        },
+        "timestamp": {
+            "seconds": 1713344018,
+            "nanoseconds": 18000000
+        },
+        "downvotes": [
+            "IPHBkcyyMJVUHzfewYQTEzDQwC62",
+            "JnZ63XGkBOfuHogS8W9dAnNe0Vk1"
+        ],
+        "location": "First Mechanic, Alakahia",
+        "rating": 4,
+        "upvotes": [
+            "IPHBkcyyMJVUHzfewYQTEzDQwC62",
+            "JnZ63XGkBOfuHogS8W9dAnNe0Vk1"
+        ]
+    },
+    {
+        "id": "TY4s7nZN5Nr3yL6eEZ9j",
+        "location": "Mgbuoba",
+        "user": {
+            "email": "sopiriyejamabo@gmail.com",
+            "displayName": " jamabo",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/IPHBkcyyMJVUHzfewYQTEzDQwC62%2FprofilesPics?alt=media&token=455a22b8-84b1-41b6-997d-7dd26e7aa011"
+        },
+        "timestamp": {
+            "seconds": 1713653567,
+            "nanoseconds": 156000000
+        },
+        "rating": 4,
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "options": [
+            "hospital",
+            "resortPark",
+            "shoppingMall"
+        ]
+    },
+    {
+        "id": "TY4s7nZN5Nr3yL6eEZ9j",
+        "location": "Mgbuoba",
+        "user": {
+            "email": "sopiriyejamabo@gmail.com",
+            "displayName": " jamabo",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/IPHBkcyyMJVUHzfewYQTEzDQwC62%2FprofilesPics?alt=media&token=455a22b8-84b1-41b6-997d-7dd26e7aa011"
+        },
+        "timestamp": {
+            "seconds": 1713653567,
+            "nanoseconds": 156000000
+        },
+        "rating": 4,
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "options": [
+            "hospital",
+            "resortPark",
+            "shoppingMall"
+        ]
+    },
+    {
+        "id": "TY4s7nZN5Nr3yL6eEZ9j",
+        "location": "Mgbuoba",
+        "user": {
+            "email": "sopiriyejamabo@gmail.com",
+            "displayName": " jamabo",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/IPHBkcyyMJVUHzfewYQTEzDQwC62%2FprofilesPics?alt=media&token=455a22b8-84b1-41b6-997d-7dd26e7aa011"
+        },
+        "timestamp": {
+            "seconds": 1713653567,
+            "nanoseconds": 156000000
+        },
+        "rating": 4,
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "options": [
+            "hospital",
+            "resortPark",
+            "shoppingMall"
+        ]
+    },
+    {
+        "id": "TY4s7nZN5Nr3yL6eEZ9j",
+        "location": "Mgbuoba",
+        "user": {
+            "email": "sopiriyejamabo@gmail.com",
+            "displayName": " jamabo",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/IPHBkcyyMJVUHzfewYQTEzDQwC62%2FprofilesPics?alt=media&token=455a22b8-84b1-41b6-997d-7dd26e7aa011"
+        },
+        "timestamp": {
+            "seconds": 1713653567,
+            "nanoseconds": 156000000
+        },
+        "rating": 4,
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "options": [
+            "hospital",
+            "resortPark",
+            "shoppingMall"
+        ]
+    },
+    {
+        "id": "TY4s7nZN5Nr3yL6eEZ9j",
+        "location": "Mgbuoba",
+        "user": {
+            "email": "sopiriyejamabo@gmail.com",
+            "displayName": " jamabo",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/IPHBkcyyMJVUHzfewYQTEzDQwC62%2FprofilesPics?alt=media&token=455a22b8-84b1-41b6-997d-7dd26e7aa011"
+        },
+        "timestamp": {
+            "seconds": 1713653567,
+            "nanoseconds": 156000000
+        },
+        "rating": 4,
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "options": [
+            "hospital",
+            "resortPark",
+            "shoppingMall"
+        ]
+    },  {
+        "id": "TY4s7nZN5Nr3yL6eEZ9j",
+        "location": "Mgbuoba",
+        "user": {
+            "email": "sopiriyejamabo@gmail.com",
+            "displayName": " jamabo",
+            "photoURL": "https://firebasestorage.googleapis.com/v0/b/area-finder-c4dd8.appspot.com/o/IPHBkcyyMJVUHzfewYQTEzDQwC62%2FprofilesPics?alt=media&token=455a22b8-84b1-41b6-997d-7dd26e7aa011"
+        },
+        "timestamp": {
+            "seconds": 1713653567,
+            "nanoseconds": 156000000
+        },
+        "rating": 4,
+        "review": "There is no stable electricity. The roads are fairly good and there is a sense of community. The drainage system is poor and most residents litter their sorrundings. There are lots stores ans Supermarket.",
+        "options": [
+            "hospital",
+            "resortPark",
+            "shoppingMall"
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+    { "id": "schools", "label": "School" },
+    { "id": "hospital", "label": "Hospital" },
+    { "id": "resortPark", "label": "Resorts park" },
+    { "id": "shoppingMall", "label": "Shopping Mall" },
+    { "id": "airports", "label": "Airports" },
+    { "id": "trainStations", "label": "Train Stations" },
+    { "id": "nightLife", "label": "Night Life" },
+    { "id": "publicWifi", "label": "Public Wifi" },
+    { "id": "parkingLot", "label": "Parking Lot" },
+    { "id": "security", "label": "Security" },
+    { "id": "publicTp", "label": "Public TP" },
+    { "id": "childCare", "label": "Child care" },
+    { "id": "light", "label": "24/7 Light" },
+    { "id": "gym", "label": "Gym" },
+    { "id": "adultHome", "label": "Adult Home" },
+    { "id": "zoo", "label": "Zoo" },
+    { "id": "temple", "label": "Temple" }
+  ]
+  

@@ -1,9 +1,10 @@
 
 import theme from "@/config/theme.json";
 import TwSizeIndicator from "@/helpers/TwSizeIndicator";
-
+import 'react-toastify/dist/ReactToastify.css';
 import Providers from "@/partials/Providers";
 import "@/styles/main.scss";
+import { ToastContainer } from "react-toastify";
 
 export default function RootLayout({
   children,
@@ -55,9 +56,9 @@ export default function RootLayout({
       <body suppressHydrationWarning={true}>
         <TwSizeIndicator />
         <Providers>
-      
+     <ToastContainer/>
           <main>{children}</main>
-         
+        
         </Providers>
       </body>
     </html>

@@ -1,24 +1,32 @@
 /* eslint-disable jsx-a11y/alt-text */
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const ImageFallback = (props: any) => {
-  const { src, fallback, ...rest } = props;
-  const [imgSrc, setImgSrc] = useState(src);
+const ImageFallback = ({
+  width,
+  height,
+  alt,
+  className,
+  src
 
-  useEffect(() => {
-    setImgSrc(src);
-  }, [src]);
+}: {
+  width: string | any;
+  height: string | any;
+  alt: any,
+  className: string | any;
+  src: string | any;
+
+}) => {
+
 
   return (
-    <Image
-      {...rest}
-      src={imgSrc}
-      onError={() => {
-        setImgSrc(fallback);
-      }}
+    <img
+      alt={alt}
+      src={src}
+      className={className}
+      width={width}
+      height={height}
     />
   );
 };

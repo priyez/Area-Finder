@@ -11,7 +11,7 @@ const Tab: React.FC<TabProps> = ({
 
   return (
    
-      <div className="home-header pt-0 relative w-full z-40 py-3 px-0 overflow-hidden xl:px-12 top-0">
+      <div className="home-header pt-0 relative w-full z-20 py-3 px-0 overflow-hidden xl:px-12 top-0">
         <nav className="navbar container overflow-x-auto no-scrollbar text-[12px] scrollB">
           <ul className="flex w-full gap-2 md:gap-1 justify-between">
           <li className="inline-block ">

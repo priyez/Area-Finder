@@ -16,6 +16,9 @@
     margin-left: calc(1rem / -2);
 }
 
+.h-drawer{
+height: 500px !important;
+}
 .rowH > * {
   box-sizing: border-box;
   flex-shrink: 0;
@@ -56,6 +59,98 @@ width: 12px;
 .scrollB{
   scrollbar-width: none;
 }
+.OR{
+  display: flex;
+  justify-content: space-between;
+&:before{
+  content: "";
+  width: 150px;
+  height: 1px;
+  background: #607D8B;
+  display: flex;
+  margin-top: 0rem;
+  position: relative;
+  top: 10px;
+}
+
+&:after{
+  content: "";
+  width: 150px;
+  height: 1px;
+  background: #607D8B;
+  display: flex;
+  margin-top: 0rem;
+  position: relative;
+  top: 10px;
+}
+}
+
+
+.move-up {
+  animation-direction: alternate-reverse; /* Move upwards */
+  animation: marquee-animation 25s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+.move-down {
+  animation-direction: alternate; /* Move upwards */
+  animation: marquee-animation-down 25s linear infinite; /* Adjust duration and timing function as needed */
+}
+.marquee-item {
+  // margin: 10px 0;
+
+}
+
+@keyframes marquee-animation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-100% - 10px)); /* Adjust the distance to move */
+  }
+}
+
+@keyframes marquee-animation-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(100% - 5px)); /* Adjust the distance to move */
+  }
+}
+
+
+
+
+
+.overlay-bottom{
+  bottom: 55rem;
+  transform: rotate(185deg);
+  left: 0rem;
+  right: 1rem;
+}
+
+.drawer-desktop {
+  height: 100vh !important;
+  width: 35% !important;
+  }
+  
+  
+  .drawer-mobile {
+    height: auto ;
+    width: 100%;
+    }
+  .EZDrawer{
+     nav{
+      height: auto !important;
+      width: 100%;
+      @media (max-width: 768px) {
+        height: auto !important;
+        width: 100%;
+        
+      }
+     }
+  }
+
 
 // container
 .container {

@@ -1,17 +1,13 @@
 <h1 align=center>Area Finder App</h1>
 
-<p align=center>The objective of this project is to develop a website for people looking for suitable areas they can move into, this allows for the seamless posting and browsing of area based reviews. The website will enhance the overall user experience in gathering information about different areas. Additionally, the website will empower administrators with efficient tools for managing review content, user interactions, and data analytics effectively.</p>
+<p align=center>The objective of this project is to develop a website for people looking for suitable areas they can move into, this allows for the seamless posting and browsing of area based reviews. The website will enhance the overall user experience in gathering information about different areas.</p>
 
-<h2 align=center>Tasks: Using any frontend framework of choice, complete the following</h2>
 
 
 ## 📌 Key Features
 - Convert the homepage of the project. The expectation is below
- Figma link: <a href="https://www.figma.com/file/eM10DwK8Ywv8g8KXduvJOw/Area-Finder?type=design&node-id=267-15223&mode=design&t=EtyiS45eN3oYYSvZ-4"> https://www.figma.com/file/eM10DwK8Ywv8g8KXduvJOw/Area-Finder?type=design&node-id=267-15223&mode=design&t=EtyiS45eN3oYYSvZ-4 </a>
- To do list
- Setup the project
- Convert the design
- Ensure responsiveness and compatibility across various devices and screen sizes.
+Design: <img src="./images/Hompage.png" alt="homepage" />
+
 
 - Convert the design for the "All Reviews" page 
   Figma link: <a hreg="https://www.figma.com/file/eM10DwK8Ywv8g8KXduvJOw/Area-Finder?type=design&node-id=47-2206&mode=design&t=EtyiS45eN3oYYSvZ-4"> https://www.figma.com/file/eM10DwK8Ywv8g8KXduvJOw/Area-Finder?type=design&node-id=47-2206&mode=design&t=EtyiS45eN3oYYSvZ-4

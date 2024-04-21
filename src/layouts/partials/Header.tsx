@@ -1,11 +1,15 @@
-import React,{useState, useEffect} from "react";
+"use client"
+import React, { useState, useCallback, useEffect } from "react"
+import { onAuthStateChanged } from "firebase/auth";
 import ImageFallback from "@/helpers/ImageFallback";
 import Search from "@/components/Search";
 import Button from "@/shortcodes/Button";
 import Link from "next/link";
 import Icon from "@/components/Icon";
-import { FaShareAlt } from "react-icons/fa";
 import Tab from "./Tab";
+import { auth } from "../../firebase-config";
+import AccountIcon from "./AccountIcon";
+import {User } from "@/lib/utils/interfaces"
 
 
 
@@ -30,6 +34,25 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
 
   const [isFixed, setIsFixed] = useState<boolean>(false);
+  const [user, setUser] = useState<User>()
+
+  const isUserLoggedIn = useCallback(() => {
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUser({ email: user.email, uid: user.uid, displayName: user.displayName, photoURL: user.photoURL });
+       
+      } else {
+        return null
+      }
+    });
+  }, []);
+
+  useEffect(() => {
+    isUserLoggedIn();
+  }, [isUserLoggedIn]);
+
+
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,15 +70,17 @@ const Header: React.FC<HeaderProps> = ({
     };
   }, []);
 
+
+
   return (
     <header className={`w-full bg-[#F2F6FD] px-4 xl:px-12 ${isFixed ? 'fixed top-0 z-50' : ''}`}>
       <div className="home-header pb-0  relative w-full z-40 py-3 px-0 xl:px-12 top-0">
         <nav className="navbar container  text-[12px]">
-        <Link href="/" className="order-0">
-            <ImageFallback src={logoSrc} className="mt-4" width={120} height={85} />
+        <Link href="/review" className="order-0">
+            <ImageFallback src={logoSrc} className="mt-4" width={120} height={85}  alt="Logo"/>
           </Link>
          
-          <div className="xl:flex hidden w-[65%] mt-4">
+          <div className="lg:flex hidden w-[65%] mt-4">
             <Search
               placeholder="Search by location..."
               value={searchTerm}
@@ -65,13 +90,13 @@ const Header: React.FC<HeaderProps> = ({
 
           <ul>
             <li className="inline-block mt-4 text-[15px] font-bold">
-              Welcome! <img src="/images/james.svg" className="mb-2 rounded-full mt-2 mr-2 inline-block w-7 h-7 bg-black" />
+            {user === user ?  <AccountIcon  /> : 'Login'}
             </li>
           </ul>
         </nav>
       </div>
       {/* Mobile Search Bar */}
-      <div className="xl:hidden block w-full px-2 mt-4">
+      <div className="lg:hidden block w-full px-2 mt-4">
         <Search
           placeholder="Search by location..."
           value={searchTerm}
@@ -79,13 +104,13 @@ const Header: React.FC<HeaderProps> = ({
         />
       </div>
       {/* Mobile Search Bar */}
-      <div className="home-header pt-0 pb-0 relative w-full z-40 py-3 px-0 xl:px-12 top-0">
-        <nav className="navbar block xl:flex w-full container text-[12px]">
+      <div className="home-header pt-0 pb-0 relative w-full z-20 py-3 px-0 xl:px-12 top-0">
+        <nav className="navbar block lg:flex w-full container text-[12px]">
           <div className="order-0">
             <h4 className="text-[1.5rem]">{searchTerm === "" ? "Reviews" : searchTerm} </h4>
             <p>&quot;{filteredReviewsCount}&quot; Reviews (People are raving about the selected location)</p>
           </div>
-          <ul className="flex w-full xl:w-[25%] justify-between">
+          <ul className="flex w-full lg:w-[25%] justify-between">
             <li className="w-[60%] flex justify-center">
               <Button bgColor="#3265fc" width={"100%"} label="Leave Review" onClick={toggleModal} />
             </li>
