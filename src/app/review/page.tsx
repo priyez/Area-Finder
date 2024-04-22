@@ -143,7 +143,7 @@ const Review: React.FC = () => {
               <div>
                 {filteredReviews.map((review: Reviews) => (
 
-                  <ReviewCard expandedReviewId={expandedReviewId} review={review} timestamp={review.timestamp} toggleComment={toggleComment} />
+                  <ReviewCard expandedReviewId={expandedReviewId} key={review.id} review={review} timestamp={review.timestamp} toggleComment={toggleComment} />
                 ))}
               </div>
             )}
