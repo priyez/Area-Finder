@@ -77,7 +77,8 @@ const Login = () => {
                                 <a href="#" className="forgot-txt font-semibold underline text-[12px] text-gray-600">Forgot your password?</a>
                             </div>
                             <div className="w-full mb-2 text-center">
-                                <span className="font-semibold text-[12px] text-gray-600">Don't have an account? <Link href="/signup" className="text-[#3265fc] underline">Sign up</Link></span>
+                             <span className="font-semibold text-[12px] text-gray-600">Don&apos;t have an account? <Link href="/signup" className="text-[#3265fc] underline">Sign up</Link></span>
+
                             </div>
                         </form>
                     </div>
