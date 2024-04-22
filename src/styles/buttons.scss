@@ -25,9 +25,9 @@
 }
 
 .btn-primary {
-  @apply border-[#3265fc] bg-[#3265fc] text-white dark:border-darkmode-primary dark:bg-white dark:text-[#3265fc];
+  @apply border-[#3265fc] bg-[#3265fc] text-white dark:border-[#3265fc] dark:bg-[#3265fc] dark:text-white;
 }
 
 .btn-outline-primary {
-  @apply border-[#3265fc] bg-transparent text-[#3265fc] hover:bg-[#3265fc] hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-dark;
+  @apply border-[#3265fc] bg-transparent text-[#3265fc] hover:bg-[#3265fc] hover:text-white dark:border-[#3265fc] dark:text-[#3265fc] dark:hover:bg-[#3265fc] dark:hover:text-white;
 }
