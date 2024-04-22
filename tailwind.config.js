@@ -30,7 +30,7 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
   safelist: [{ pattern: /^swiper-/ }],
-  darkMode: "class",
+  // darkMode: "class",
   theme: {
     screens: {
       sm: "540px",
@@ -65,7 +65,7 @@ module.exports = {
       //     "theme-light": theme.colors.darkmode.theme_color.theme_light,
       //     "theme-dark": theme.colors.darkmode.theme_color.theme_dark,
       //   },
-      },
+      // },
       fontSize: {
         base: font_base + "px",
         "base-sm": font_base * 0.8 + "px",
