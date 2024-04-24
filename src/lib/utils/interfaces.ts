@@ -140,7 +140,7 @@ export const addReviews = async (
             },
             timestamp: serverTimestamp()
 		})
-		successMessage(`product added! 🎉`)
+		successMessage(`review added! 🎉`)
 	}	
 		 catch (err) {
 		errorMessage("Error! ❌")
